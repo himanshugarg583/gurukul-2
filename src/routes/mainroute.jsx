@@ -4,7 +4,7 @@ import AboutUs from '../components/main-sections/AboutUs';
 import ContactUs from '../components/main-sections/ContactUs';
 
 const MainRoute = () => (
-  <BrowserRouter basename="/gurukul-2">
+  <BrowserRouter basename="/">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about" element={<AboutUs />} />
