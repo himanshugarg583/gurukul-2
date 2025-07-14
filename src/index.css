@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@utility gurukul-blue {
+    color: #1A237E;
+}
+
+@utility sarthi-teal{
+    color: #00B8C4;
+}
+
+@utility tagline-green{
+    color: #1BC47D;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
